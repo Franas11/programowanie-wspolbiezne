@@ -1,0 +1,6 @@
+set hidden3d
+set dgrid3d 50,50 qnorm 2
+set xlabel "liczba pisarzy"
+set ylabel "liczba czytelników"
+set zlabel "czas w milisekundach" rotate by 90
+splot 'faworyzowanieSemafora.dat' with lines
